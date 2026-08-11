@@ -1,0 +1,6 @@
+{
+  "name": "Urban Fix Plumbers",
+  "description": "Reliable Plumbing Services in Nairobi, Kenya. Open 24 Hours. Leak repairs, drain cleaning, pipe repairs, emergency plumbing.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
