@@ -27,8 +27,8 @@ export const Header: React.FC<HeaderProps> = ({ activeSection, onNavigate, onOpe
 
   const navLinks = [
     { name: 'Home', id: 'home' },
-    { name: 'Services', id: 'services' },
     { name: 'Projects', id: 'gallery' },
+    { name: 'Services', id: 'services' },
     { name: 'Why Us', id: 'why-us' },
     { name: 'Reviews', id: 'reviews' },
     { name: 'Areas', id: 'areas' },

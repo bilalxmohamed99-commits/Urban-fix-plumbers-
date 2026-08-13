@@ -53,6 +53,9 @@ export default function App() {
         {/* Diagnostic Tool */}
         <EmergencyDiagnostic />
 
+        {/* Real-World Projects Gallery */}
+        <RealProjectsGallery />
+
         {/* 8 Services Grid */}
         <ServicesSection
           onSelectService={(serv) => setSelectedServiceForModal(serv)}
@@ -70,9 +73,6 @@ export default function App() {
 
         {/* Service Areas Local SEO Grid */}
         <ServiceAreasSection />
-
-        {/* Real-World Projects Gallery */}
-        <RealProjectsGallery />
 
         {/* Before / After Transformations */}
         <BeforeAfterSection />
