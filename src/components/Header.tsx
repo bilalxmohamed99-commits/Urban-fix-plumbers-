@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import { Phone, MessageSquare, Menu, X, ShieldAlert, Clock, Droplets } from 'lucide-react';
+import { Phone, MessageSquare, Menu, X, ShieldAlert, Clock } from 'lucide-react';
 import { BUSINESS_INFO, getWhatsAppUrl } from '../data/plumbingData';
+import { UrbanFixLogo } from './UrbanFixLogo';
 
 interface HeaderProps {
   activeSection: string;
@@ -27,9 +28,10 @@ export const Header: React.FC<HeaderProps> = ({ activeSection, onNavigate, onOpe
   const navLinks = [
     { name: 'Home', id: 'home' },
     { name: 'Services', id: 'services' },
+    { name: 'Projects', id: 'gallery' },
     { name: 'Why Us', id: 'why-us' },
     { name: 'Reviews', id: 'reviews' },
-    { name: 'Areas Served', id: 'areas' },
+    { name: 'Areas', id: 'areas' },
     { name: 'FAQs', id: 'faqs' },
     { name: 'Contact', id: 'contact' },
   ];
@@ -86,17 +88,7 @@ export const Header: React.FC<HeaderProps> = ({ activeSection, onNavigate, onOpe
             onClick={() => handleNavClick('home')}
             className="flex items-center gap-2.5 group text-left cursor-pointer focus:outline-none"
           >
-            <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-sky-500 to-blue-600 flex items-center justify-center text-white shadow-md shadow-sky-500/20 group-hover:scale-105 transition-transform">
-              <Droplets className="w-6 h-6 stroke-[2.5]" />
-            </div>
-            <div>
-              <span className="text-xl sm:text-2xl font-extrabold tracking-tight text-white block leading-none font-heading">
-                URBAN FIX
-              </span>
-              <span className="text-[10px] sm:text-xs font-semibold tracking-wider text-sky-400 uppercase block mt-0.5">
-                PLUMBERS NAIROBI
-              </span>
-            </div>
+            <UrbanFixLogo size="md" />
           </button>
 
           {/* Desktop Nav Links */}

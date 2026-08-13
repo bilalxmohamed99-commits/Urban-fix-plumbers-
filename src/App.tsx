@@ -10,6 +10,7 @@ import { WhyChooseUs } from './components/WhyChooseUs';
 import { HowItWorks } from './components/HowItWorks';
 import { ReviewsSection } from './components/ReviewsSection';
 import { ServiceAreasSection } from './components/ServiceAreasSection';
+import { RealProjectsGallery } from './components/RealProjectsGallery';
 import { BeforeAfterSection } from './components/BeforeAfterSection';
 import { EmergencyDarkSection } from './components/EmergencyDarkSection';
 import { BookingFormSection } from './components/BookingFormSection';
@@ -69,6 +70,9 @@ export default function App() {
 
         {/* Service Areas Local SEO Grid */}
         <ServiceAreasSection />
+
+        {/* Real-World Projects Gallery */}
+        <RealProjectsGallery />
 
         {/* Before / After Transformations */}
         <BeforeAfterSection />

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Phone, MessageSquare, Clock, AlertTriangle } from 'lucide-react';
 import { BUSINESS_INFO, getWhatsAppUrl } from '../data/plumbingData';
-import plumberEmergencyImg from '../assets/images/plumber_emergency_1786445796076.jpg';
+import plumberEmergencyImg from '../assets/images/booster_pump_system_1786645476478.jpg';
 
 export const EmergencyDarkSection: React.FC = () => {
   return (

@@ -1,6 +1,7 @@
 import React from 'react';
-import { Droplets, Phone, MessageSquare, MapPin, Clock, ArrowUp } from 'lucide-react';
+import { Phone, MessageSquare, MapPin, Clock, ArrowUp } from 'lucide-react';
 import { BUSINESS_INFO, getWhatsAppUrl } from '../data/plumbingData';
+import { UrbanFixLogo } from './UrbanFixLogo';
 
 export const Footer: React.FC = () => {
   const scrollToTop = () => {
@@ -15,14 +16,7 @@ export const Footer: React.FC = () => {
           
           {/* Col 1: Brand Info */}
           <div className="space-y-4">
-            <div className="flex items-center gap-2">
-              <div className="w-8 h-8 rounded-lg bg-sky-500 flex items-center justify-center text-slate-950 font-black">
-                <Droplets className="w-5 h-5" />
-              </div>
-              <span className="text-lg font-black text-white tracking-tight font-heading">
-                URBAN FIX PLUMBERS
-              </span>
-            </div>
+            <UrbanFixLogo size="md" showTagline={true} />
             <p className="text-slate-400 text-xs leading-relaxed">
               Professional, reliable, mobile-first plumbing services in Nairobi, Kenya. Leak repairs, drain unblocking, pipe repairs, bathroom and emergency plumbing.
             </p>

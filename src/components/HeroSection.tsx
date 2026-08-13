@@ -1,7 +1,7 @@
 import React from 'react';
 import { Phone, MessageSquare, Star, Clock, MapPin, CheckCircle2, ShieldCheck, ArrowRight } from 'lucide-react';
 import { BUSINESS_INFO, getWhatsAppUrl } from '../data/plumbingData';
-import heroImage from '../assets/images/urban_fix_hero_1786445783393.jpg';
+import heroImage from '../assets/images/plumber_shower_hero_1786645453628.jpg';
 
 interface HeroSectionProps {
   onOpenBooking: () => void;
